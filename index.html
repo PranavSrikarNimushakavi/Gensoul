@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gensoul | Transcend the Code</title>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <canvas id="ui-particles"></canvas>
+  <div class="blobs">
+    <svg class="blob blob1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#00D1FF" d="M41.1,-69.1C52.3,-63.7,60.3,-52.1,67.7,-39.6C75.1,-27,81.9,-13.5,78.9,-1.5C75.9,10.6,63.2,21.2,54.3,32.1C45.5,43,40.5,54.3,31.3,61.8C22,69.3,8.4,73.1,-3.9,77.6C-16.3,82,-32.5,87,-42.6,80.4C-52.6,73.8,-56.4,55.5,-63.6,39.6C-70.8,23.6,-81.4,9.9,-78.7,-2.2C-76.1,-14.4,-60.1,-24.9,-48.8,-33.1C-37.5,-41.3,-30.9,-47.2,-22.4,-52.9C-13.9,-58.6,-3.5,-64.1,9.1,-75.2C21.7,-86.4,36.4,-103.4,41.1,-69.1Z" transform="translate(100 100)" />
+    </svg>
+  
+    <svg class="blob blob2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#18FFB7" d="M52.2,-61.7C66.2,-50.7,75.2,-33.9,75.3,-18.6C75.3,-3.3,66.4,10.5,58.3,21.6C50.2,32.8,42.9,41.3,33.8,52.4C24.6,63.5,12.3,77.2,-1.5,79.3C-15.3,81.4,-30.5,71.9,-43.7,60.1C-56.9,48.3,-68.2,34.1,-72.1,18.5C-75.9,2.9,-72.2,-14.1,-64.3,-27.6C-56.4,-41.1,-44.2,-51,-31.2,-61.2C-18.1,-71.3,-4,-81.7,10.4,-84.2C24.8,-86.8,49.6,-81.4,52.2,-61.7Z" transform="translate(100 100)" />
+    </svg>
+  </div>
+
+  <div id="preloader">
+    <div class="preloader-text">Gensoul is booting up...</div>
+  </div>
+
+  <header class="hero">
+    <div class="hero">
+      <div class="glass-panel" data-aos="zoom-in">
+        <div class="logo-wrapper">
+          <div class="logo-container scan-effect">
+            <img src="gensoul-logo.png" alt="Gensoul Logo" class="logo-img" />
+          </div>
+          <h1>Gensoul</h1>
+          <div id="typewriter-container" class="typewriter"></div>
+          <button onclick="scrollToSection()" class="primary-btn">Get Verified</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <section class="features-section" data-aos="fade-up">
+    <h2>What is Gensoul?</h2>
+    <p>
+      Gensoul is the first platform that verifies whether your content such as art, writing, poetry, essays is truly human-made.
+    </p>
+    <p>
+      We use a 3-step system:<br>
+      1. AI detection engine<br>
+      2. Expert human review<br>
+      3. Certificate + digital badge with a unique ID and QR code
+    </p>
+    <p>
+      Gensoul protects creators. It gives you proof that your work wasn’t generated — it was created.
+    </p>
+    <p>
+      Because in a world full of replicas, human originality deserves recognition.
+    </p>
+  </section>
+
+  <section class="features-section">
+    <h2>Why Gensoul?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>AI Detection</h3>
+        <p>Advanced algorithms that scan for AI-generated patterns across text and visuals.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Expert Review</h3>
+        <p>Each verified submission is reviewed by trained human experts, no automation shortcuts.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Certificate + Digital Badge</h3>
+        <p>You get a shareable certificate, a verified ID, and a scannable badge to embed or print anywhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works-section">
+    <h2 data-aos="fade-up">How Gensoul Works</h2>
+    <div class="steps-wrapper">
+      <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="step-number">1</div>
+        <h3>AI Detection</h3>
+        <p>We analyze your content using deep AI detectors that identify artificial patterns, prompts, or hallucinations.</p>
+      </div>
+      <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="step-number">2</div>
+        <h3>Expert Review</h3>
+        <p>Real human reviewers verify your submission by checking style, originality, and human quality markers.</p>
+      </div>
+      <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="step-number">3</div>
+        <h3>Certified & Verified</h3>
+        <p>You receive a unique certificate, digital badge, and verified QR code to showcase your human work anywhere.</p>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+  <section class="curved-section reverse" data-aos="fade-up">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>To protect and preserve human originality in an AI-driven world by giving creators a way to prove that their work came from the soul, not from a machine.</p>
+    </div>
+  </section>
+
+  <section class="waitlist-section" data-aos="fade-up">
+    <div class="waitlist-container">
+      <h2>Get Verified. Be First.</h2>
+      <p>Join the waitlist and get early access to the Gensoul verification platform.</p>
+      <form class="waitlist-form" onsubmit="submitWaitlist(event)">
+        <input type="email" placeholder="Enter your email" id="emailInput" required />
+        <button type="submit">Notify Me</button>
+      </form>
+      <p id="form-msg" class="form-msg"></p>
+      
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Gensoul. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 900,
+    easing: 'ease-out',
+  });
+
+  window.addEventListener("load", () => {
+    const loader = document.getElementById("preloader");
+    loader.style.opacity = 0;
+    setTimeout(() => loader.style.display = "none", 600);
+  });
+
+  // Typewriter for subtitle
+  const subtitle = document.querySelector(".hero-content p");
+  const originalText = subtitle.textContent;
+  subtitle.textContent = "";
+  let index = 0;
+  function type() {
+    if (index < originalText.length) {
+      subtitle.textContent += originalText.charAt(index);
+      index++;
+      setTimeout(type, 40);
+    }
+  }
+  window.addEventListener("DOMContentLoaded", type);
+
+  // Light trail effect
+  const trail = document.createElement("div");
+  trail.style.position = "fixed";
+  trail.style.width = "15px";
+  trail.style.height = "15px";
+  trail.style.borderRadius = "50%";
+  trail.style.background = "linear-gradient(45deg, #00D1FF, #18FFB7)";
+  trail.style.pointerEvents = "none";
+  trail.style.zIndex = "9999";
+  trail.style.filter = "blur(4px)";
+  document.body.appendChild(trail);
+
+  document.addEventListener("mousemove", (e) => {
+    trail.style.left = e.clientX + "px";
+    trail.style.top = e.clientY + "px";
+  });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    duration: 900,
+    easing: 'ease-out',
+  });
+</script>
+
+</body>
+</html>
